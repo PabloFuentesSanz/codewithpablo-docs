@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Built with <strong>**Vite</strong>, this boilerplate ensures lightning-fast development
+        Built with <strong>Vite</strong>, this boilerplate ensures lightning-fast development
         and build times.
       </>
     ),
@@ -59,7 +59,7 @@ function Feature({ title, Svg, description }: FeatureItem) {
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
-      <div className="container">
+      <div className="">
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

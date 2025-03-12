@@ -23,7 +23,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Development",
-      items: ["linting-formatting", "testing", "husky", "aliases", "commits"],
+      items: ["linting-formatting", "testing", "husky", "commits", "aliases"],
     },
     "contributing",
   ],

@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
 
-  title: 'CodeWithPablo Boilerplate 🚀',
+  title: 'CodeWithPablo Starter Kit 🚀',
   tagline: 'A powerful React + TypeScript starter kit',
   url: 'https://PabloFuentesSanz.github.io',
   baseUrl: '/codewithpablo-docs/',
@@ -26,10 +26,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
